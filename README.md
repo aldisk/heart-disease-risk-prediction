@@ -71,10 +71,10 @@ Persiapan data berupa Imbalance Handling dan Data Encoding. Mengingat algoritma 
 ## Modeling
 Digunakan 2 Algoritma dalam pemodelan, yaitu Decision Tree dan pengembangannya yaitu Random Forest
 
-**Decision Tree
+**Decision Tree**:
 Decision Tree merupakan salah satu metode Machine Learning tradisional yang masih digunakan hingga sekarang. Cara kerja Decision Tree didasari dengan melakukan splitting pada target variabel berdasarkan nilai statistik fitur-fitur yang ada. Hal ini dilakukan dari fitur yang paling membedakan (diskriminatif) hingga didapatkan data yang pure (kondisi statistik yang menghasilkan data dengan satu kelas). Decision Tree memiliki kelebihan seperti efisiensi, seleksi fitur intrinsik, dan explainability yang sangat baik (Xu, 2019). Kelemahan metode ini adalah mungkin perlu dilakukannya feature engineering apabila data tidak dapat dipisahkan menggunakan fitur secara satu per satu.
 
-**Random Forest
+**Random Forest**:
 Random Forest adalah pengembangan dari Decision Tree dengan memanfaatkan beberapa Decision Tree disaat bersamaan. Random Forest menggunakan teknik bagging dimana data training diambil secara acak untuk setiap Decision Tree yang ada. Subset data acak tersebut kemudian akan dilatih pada setiap Decision Tree yang dibuat. Ketika melakukan inferensi, data akan dimasukkan ke seluruh Decision Tree yang ada dan akan diambil hasil mayoritas dari seluruh Decision Tree. Pendekatan ini meningkatkan performa Decision Tree dengan mencegah overfitting dan meningkatkan generalisasi algortima. Pengembangan ini namun memiliki kelemahan dimana terdapat sebuah keacakan yang dapat sangat berpengaruh terhadap performa algoritma dan peningkatan waktu pelatihan dan inferensi yang cukup signifikan.
 
 ## Evaluation
